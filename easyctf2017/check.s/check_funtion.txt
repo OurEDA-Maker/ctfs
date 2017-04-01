@@ -1,0 +1,4 @@
+bool __fastcall check(int a1, int a2)
+{
+  return (((a2 ^ a1) * a2 / ((a2 ^ a1) + 98) + a1) ^ (~((a2 ^ a1) + 98) + a2 + (a1 ^ (~((a2 ^ a1) + 98) + a2)))) == -814;
+}
